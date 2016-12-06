@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PostFix()
+comment0.text=\r\n\ Sets\ up\ evalutator\ by\ creating\ a\ new\ stack.\r\n
+comment1.params=expr
+comment1.target=int\ evaluate(java.lang.String)
+comment1.text=\r\n\ Evaluates\ the\ specified\ post-fix\ expression.\ If\ an\ operand\ is\r\n\ encountered,\ it\ is\ pushed\ onto\ the\ stack.\ If\ an\ operator\ is\r\n\ encountered,\ two\ operands\ are\ popped,\ the\ operation\ is\r\n\ evaluated,\ and\ the\ result\ ispushed\ onto\ the\ stack.\r\n\ @param\ expr\ string\ representation\ of\ the\ post-fix\ expression\r\n\ @return\ value\ of\ the\ given\ expression\r\n
+comment2.params=token
+comment2.target=boolean\ isOperator(java.lang.String)
+comment2.text=\r\n\ Determines\ if\ the\ specified\ token\ is\ an\ operator.\r\n\ @param\ token\ the\ token\ to\ be\ evaluated\r\n\ @return\ true\ if\ token\ is\ operator\r\n
+comment3.params=operation\ op1\ op2
+comment3.target=int\ evaluateSingleOperator(char,\ int,\ int)
+comment3.text=\r\n\ Performs\ integer\ evaluation\ on\ a\ single\ expression\ consisting\ of\r\n\ the\ specified\ operator\ and\ operands.\r\n\ @param\ operation\ operation\ to\ be\ performed\r\n\ @param\ op1\ the\ first\ operand\r\n\ @param\ op2\ the\ second\ operand\r\n\ @return\ value\ of\ the\ expression\r\n
+numComments=4
